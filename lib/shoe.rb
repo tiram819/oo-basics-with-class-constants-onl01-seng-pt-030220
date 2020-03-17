@@ -10,6 +10,7 @@ class Shoe
     unless
     BRANDS.include?(brand)
   end
+end
   
 
   def cobble
