@@ -7,11 +7,11 @@ class Shoe
    def initialize(brand)
     @brand = brand unless
     BRANDS << brand
-    unless
     BRANDS.include?(brand)
     end
   end
 
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
